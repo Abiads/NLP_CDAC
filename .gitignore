@@ -24,8 +24,10 @@ desktop.ini
 .vscode/
 .idea/
 
-# Large files (reference books - keep locally, don't push)
+# Large files (reference books and datasets - keep locally, don't push)
 reference-books/*.pdf
+*.csv
+disney_processed_sample.csv
 
 # Notebook outputs (optional - uncomment if you want clean notebooks in git)
 # *.ipynb  # only if using .py percent format
