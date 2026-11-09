@@ -15,13 +15,13 @@ while True:
     polarity = analysis.sentiment.polarity
 
     if polarity > 0:
-        sentiment = "Positive 😀"
+        sentiment = "Positive [Positive]"
 
     elif polarity < 0:
-        sentiment = "Negative 😞"
+        sentiment = "Negative [Negative]"
 
     else:
-        sentiment = "Neutral 😐"
+        sentiment = "Neutral [Neutral]"
 
     print("Polarity Score:", polarity)
 print("Sentiment:", sentiment)

@@ -2,7 +2,7 @@
 
 Course materials, lecture notes, and assignments for the **Natural Language Processing & Computer Vision** module.
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 NLP_CDAC/
@@ -33,14 +33,14 @@ NLP_CDAC/
 └── .gitignore
 ```
 
-## 🚀 Quick Setup
+##  Quick Setup
 
 ```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-## 📥 Adding a New Day's Content
+##  Adding a New Day's Content
 
 When you download a new zip from CloudFoundry:
 
@@ -56,13 +56,13 @@ This will:
 4. Sort `.pptx` files → `notes/day-02/slides/`
 5. Archive the zip → `raw-downloads/`
 
-## 📝 Adding a New Assignment
+##  Adding a New Assignment
 
 ```powershell
 .\scripts\new-assignment.ps1 -Number 2 -Title "Text Classification with NLTK"
 ```
 
-## 📚 CloudFoundry Source
+##  CloudFoundry Source
 
 Content downloaded from:
 ```
@@ -70,7 +70,7 @@ https://cf.cdacb.in/index.php/s/l0rOWydcrtrzkiI?path=%2F002_Modulewise%20Content
 Password: AI@EC2
 ```
 
-## 📖 Reference Books
+##  Reference Books
 - Bhattacharyya & Joshi — *Natural Language Processing* (Wiley India, 2023)
 - Pushpak Bhattacharyya — *Natural Language Processing*
 - Shlomo Vaknin — *The Big Book of NLP*

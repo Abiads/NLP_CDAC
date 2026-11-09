@@ -29,7 +29,7 @@ def list_remote_files():
     headers = {"Depth": "infinity"}
     resp = requests.request("PROPFIND", CLOUD_BASE_URL, auth=AUTH, headers=headers, timeout=20)
     if resp.status_code not in (200, 207):
-        print(f"❌ Failed to connect to CloudFoundry: Status {resp.status_code}")
+        print(f"[ERROR] Failed to connect to CloudFoundry: Status {resp.status_code}")
         return []
 
     root = ET.fromstring(resp.content)
@@ -105,20 +105,20 @@ def download_file(rel_path, target_path):
         with open(target_path, "wb") as f:
             for chunk in r.iter_content(chunk_size=16384):
                 f.write(chunk)
-        print("✅ Done!")
+        print("[OK] Done!")
         return True
     else:
-        print(f"❌ Failed (Status {r.status_code})")
+        print(f"[ERROR] Failed (Status {r.status_code})")
         return False
 
 
 def main():
     print("=" * 65)
-    print("🌐 CDAC CloudFoundry Sync Tool")
-    print(f"📡 Remote: {CLOUD_BASE_URL}")
+    print("[Network] CDAC CloudFoundry Sync Tool")
+    print(f"[Remote] Remote: {CLOUD_BASE_URL}")
     print("=" * 65)
 
-    print("\n🔍 Checking remote server for files...")
+    print("\n[Search] Checking remote server for files...")
     remote_files = list_remote_files()
     if not remote_files:
         print("No files discovered.")
@@ -130,13 +130,13 @@ def main():
     for item in remote_files:
         dest = determine_destination(item)
         if not dest:
-            print(f"  ⏭️  Skipping unknown item: {item}")
+            print(f"  [Skip]  Skipping unknown item: {item}")
             continue
 
         if os.path.exists(dest):
-            print(f"  ✔️  Already up-to-date: {os.path.basename(dest)}")
+            print(f"  [OK]️  Already up-to-date: {os.path.basename(dest)}")
         else:
-            print(f"  ✨ New file found: {item}")
+            print(f"  [New] New file found: {item}")
             success = download_file(item, dest)
             if success:
                 downloaded_count += 1
@@ -147,19 +147,19 @@ def main():
                     if day_match:
                         day_num = int(day_match.group(1))
                         day_dir = os.path.join(REPO_ROOT, "notes", f"day-{day_num:02d}")
-                        print(f"     📦 Extracting {zip_name} to {day_dir}...")
+                        print(f"     [Package] Extracting {zip_name} to {day_dir}...")
                         try:
                             with zipfile.ZipFile(dest, "r") as zf:
                                 zf.extractall(day_dir)
-                            print(f"     ✅ Extracted!")
+                            print(f"     [OK] Extracted!")
                         except Exception as e:
-                            print(f"     ⚠️ Extract error: {e}")
+                            print(f"     [WARNING] Extract error: {e}")
 
     print("\n" + "=" * 65)
     if downloaded_count > 0:
-        print(f"🎉 Sync Complete! Downloaded {downloaded_count} new item(s).")
+        print(f"[Done] Sync Complete! Downloaded {downloaded_count} new item(s).")
     else:
-        print("🎉 Sync Complete! Everything is already up-to-date.")
+        print("[Done] Sync Complete! Everything is already up-to-date.")
     print("=" * 65)
 
 

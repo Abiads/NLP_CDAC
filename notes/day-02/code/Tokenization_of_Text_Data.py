@@ -44,12 +44,12 @@ csv_filename = 'DisneylandReviews.csv'
 
 # Check if the CSV exists in current folder, else use a fallback review
 if os.path.exists(csv_filename):
-    print(f"📁 Loading reviews from '{csv_filename}'...")
+    print(f"[DIR] Loading reviews from '{csv_filename}'...")
     df = pd.read_csv(csv_filename, encoding='latin1')
     # Pick the first customer review text (Row 0, column 'Review_Text')
     review = str(df['Review_Text'][0])
 else:
-    print(f"⚠️  '{csv_filename}' not found. Using sample Disneyland review...")
+    print(f"[WARNING]  '{csv_filename}' not found. Using sample Disneyland review...")
     review = (
         "If you've ever been to Disneyland Paris you'll end up comparing the two. "
         "I visited Disney Hong Kong on an extremely hot day in May, but still had a blast! "
