@@ -1,0 +1,31 @@
+# Raw downloads (large zips - keep locally, don't push)
+raw-downloads/
+
+# Original unorganized folder (keep as backup locally)
+006_Natural Language Processing & Computer Vision/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Large files (reference books - keep locally, don't push)
+reference-books/*.pdf
+
+# Notebook outputs (optional - uncomment if you want clean notebooks in git)
+# *.ipynb  # only if using .py percent format

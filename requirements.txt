@@ -1,0 +1,21 @@
+# NLP & Computer Vision - CDAC PGCP-AI Aug 2026
+# Core NLP
+nltk>=3.8
+spacy>=3.7
+textblob>=0.18
+
+# Data & Visualization
+matplotlib>=3.8
+pandas>=2.1
+numpy>=1.26
+
+# Jupyter
+jupyter>=1.0
+ipykernel>=6.0
+
+# Translation (for Assignment 1)
+googletrans==4.0.0-rc.1
+deep-translator>=1.11
+
+# Download spaCy model after install:
+# python -m spacy download en_core_web_sm
