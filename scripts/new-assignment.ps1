@@ -66,3 +66,4 @@ $notebook = @"
 $notebook | Out-File -FilePath $nbPath -Encoding utf8
 
 Write-Host "✅ Created: assignments\$folder\assignment_$($Number.ToString('D2')).ipynb" -ForegroundColor Green
+

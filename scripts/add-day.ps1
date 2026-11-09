@@ -80,3 +80,4 @@ Write-Host "Next steps:" -ForegroundColor Yellow
 Write-Host "  1. Add slides (.pptx) manually if they were shared separately"
 Write-Host "  2. Create notes\$dayFolder\README.md with topic summary"
 Write-Host "  3. git add notes\$dayFolder && git commit"
+

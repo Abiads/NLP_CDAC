@@ -38,3 +38,4 @@ Numbered 1-9, corresponding to each lab exercise above — PDF exports of expect
 ## Slides (in `slides/`)
 - `Session1_Language_in_Cognitive_Science_NLP_2026.pptx`
 - `Session2_Language_Analysis_and_Computational_Linguistics_2026.pptx`
+
