@@ -71,3 +71,4 @@ for nb_rel, drive_subdir, pkgs in notebooks:
         print(f"Added Colab setup cell to: {nb_rel}")
     else:
         print(f"Colab setup cell already present in: {nb_rel}")
+
