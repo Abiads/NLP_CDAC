@@ -1,0 +1,392 @@
+=== PAGE 1 ===
+ACTS, Pune 
+PGCP-AI 
+Page 1 of 5 
+ 
+Suggested Teaching Guidelines for 
+Natural Language Processing & Computer Vision 
+PGCP-AI August 2026 
+ 
+ 
+ 
+Duration: 120 Hours: 40 Theory (T) + 60 Lab (L) + 20 Self-Learning (SL) 
+ 
+Objective: To Introduce the students to Natural Language Processing &Computer Vision. 
+ 
+Prerequisites: Good knowledge of Python Programming and fundamentals of Artificial Intelligence. 
+ 
+Evaluation method: Theory exam – 40%, Lab exam – 40%, Internal Assessment– 20%  
+List of Course material  
+Text Book: 
+Natural Language Processing, by Pushpak Bhattacharyya, Aditya Joshi / Wiley India, 2023 
+ 
+Reference Book: 
+1. The Big Book of NLP Techniques by Shlomo Vaknin 
+2. Theory and Practice of NLP Coaching: A Psychological Approach by Bruce Grimley 
+ 
+Note: 
+• Lab assignments are indicative; faculty shall provide adequate assignments for 
+better practice. 
+ 
+I.NLP (26 Hours Theory + 42 Hours Lab + 15 Hours Self Learning) 
+ 
+Session 1: (2T + 2L + 1SL) 
+Theory and Lab 
+Language in Cognitive Science 
+• 
+Definitions of language 
+• 
+Language and symbolic systems: Artificial language (Logical 
+language/programming Language) vs. Natural Language 
+• 
+Linguistics as a scientific study 
+ 
+ 
+Session 2: (2T + 2L + 1SL) 
+Theory and Lab 
+Language Analysis and Computational Linguistics  
+• 
+Language Analysis: 
+• Paradigmatic and Syntagmatic relationship 
+• Form, Function and Meaning in Language Analysis 
+• Levels of Linguistic Analysis: Phonetics, Phonology, Morphology, Syntax, 
+Semantics, 
+• Discourse, Pragmatics, Lexicology 
+• Artificial Intelligence (AI) and its sub disciplines 
+• Natural Language Understanding (NLU) 
+• Natural Language Generation (NLG) 
+• Natural Language Interaction (NLI) 
+ 
+
+
+=== PAGE 2 ===
+ACTS, Pune 
+PGCP-AI 
+Page 2 of 5 
+ 
+Suggested Teaching Guidelines for 
+Natural Language Processing & Computer Vision 
+PGCP-AI August 2026 
+ 
+ 
+Assignment: Difference between Semantics and Pragmatics 
+ 
+Session 3: (2T+ 4L+ 1 SL) 
+Theory 
+Shallow Parsing and Tools for NLP 
+• 
+Morphological Analysis 
+• 
+Tokenization & PoS Tagging 
+• 
+Chunking & Multi word expression (MWE) 
+• 
+Named-Entity Recognition 
+• 
+Lemmatizer & Stemming 
+• 
+Morphological Synthesis 
+• 
+Word Sense Disambiguation 
+• 
+Universal Networking Language 
+ 
+Lab Assignment:  Apply tok , stemming , lemma, and POS tagging for following data 
+https://www.kaggle.com/arushchillar/disneyland-reviews 
+ 
+ 
+Session 4: (2T+ 4L + 1SL) 
+Theory and Lab 
+Deep Parsing and Tools for NLP 
+• 
+Syntactic Parsing Techniques and algorithms 
+• 
+Semantic Parsing 
+• 
+Information Extraction 
+• 
+Automatic Summarization 
+• 
+Anaphora Resolution, Pragmatics and Discourse analysis 
+• 
+Ontology & Semantic Web 
+ 
+Session 5: (2T+ 4L + 1SL) 
+Theory and Lab 
+Statistical Approaches 
+• 
+Probability Theory & Models 
+• 
+Discrete Time Models 
+• 
+Markov Models, Entropy Models 
+• 
+Statistical Parsing 
+• 
+Text Categorization / Classification and Clustering 
+• 
+Text Classification Using Support Vector Machine (SVM) 
+• 
+Centroid based Classification 
+ 
+Session 6: (2T + 2SL) 
+Theory and Lab 
+NLP with Machine Learning and Deep Learning 
+• 
+Machine Learning & Deep Learning for NLP 
+• 
+ML vs. DL along with respective algorithms names 
+• 
+Linear Algebra Review 
+• 
+Long Short-Term Memory (LSTM) 
+ 
+
+
+=== PAGE 3 ===
+ACTS, Pune 
+PGCP-AI 
+Page 3 of 5 
+ 
+Suggested Teaching Guidelines for 
+Natural Language Processing & Computer Vision 
+PGCP-AI August 2026 
+ 
+ 
+Session 7: (2T+ 4L+ 2SL) 
+Theory and Lab 
+Study of Important ML/DL Algorithms & Case Studies: 
+• 
+Pre-processing 
+• 
+Need of Pre-processing Data 
+• 
+Introduction to NLTK, spaCy 
+• 
+Using Python Scripts 
+ 
+Session 8: (2T + 5L + 1SL) 
+Theory 
+• 
+Introduction to gates, GRU and LSTM 
+• 
+Introduction to LLM 
+• 
+Hallucinations and Limitations of LLMs 
+ 
+Assignment –Lab: 
+• 
+Implement LSTM and GRU in python 
+• 
+Load a pretrained Large Language Model using Hugging Face to perform 
+text generation, summarization, and question answering 
+ 
+Session 9: (2T + 5L + 1SL) 
+Theory and Lab 
+• 
+Sequence Modeling - Word representation 
+• 
+word embedding matrix 
+• 
+learning words and embedding’s 
+• 
+Sentiment classifications 
+• 
+Introduction to Prompt Engineering 
+• 
+Learn how to design effective prompts for summarization 
+ 
+Session 10: (2T + 4L + 2SL) 
+Theory and Lab 
+Word2Vec models (Skip-gram, CBOW, Glove, one hot Encoding) 
+• 
+Sequence-to-sequence models (Seq2Seq) - GloVe: Global Vectors for Word 
+representation 
+• 
+Brief on Sequence-to-Sequence Models  
+• 
+RNN based Sequence-to-Sequence Model  
+• 
+Challenges 
+• 
+Transformer in NLP  
+• 
+Understanding the Model Architecture  
+• Getting Hang of Self- Attention 
+• Calculation of Self-Attention  
+• Limitations of the Transformer 
+• 
+Transformer-XL o Using Transformer for Language Modeling  
+• 
+Using Transformer- XL for Language Modeling 
+ 
+ 
+ 
+ 
+
+
+=== PAGE 4 ===
+ACTS, Pune 
+PGCP-AI 
+Page 4 of 5 
+ 
+Suggested Teaching Guidelines for 
+Natural Language Processing & Computer Vision 
+PGCP-AI August 2026 
+ 
+ 
+Session 11: (2T + 4L + 1SL) 
+Theory and Lab 
+• 
+Bert in NLP  
+• 
+Model Architecture 
+• 
+BERT Pre-Training Tasks 
+• 
+NLP Model Deployment Techniques using Flask 
+ 
+ 
+Sessions 12 & 13: (4T + 4L + 1SL) 
+Theory 
+Speech Processing 
+• 
+Articulatory Phonetics 
+• 
+Speech Sounds and Phonetic Transcription 
+• 
+Acoustic Phonetics 
+• 
+Phonology 
+• 
+Computational Phonology 
+• 
+Digital Signal Processing Techniques 
+• 
+Automatic Speech Recognition (ASR) 
+• 
+Speech Recognition Approaches 
+• 
+Text to Speech (TTS) system 
+• 
+Speech Synthesis Approaches 
+• 
+Language Models 
+ 
+Lab  
+NLP Applications 
+• 
+Lexicon, Dictionaries, thesaurus 
+• 
+Transliteration, Spell Checker, Grammar Checker, Domain identification, 
+Language identification 
+• 
+Auto suggest/ Auto complete, Gender Prediction 
+• 
+Machine Translation 
+• 
+Neural machine translation 
+• 
+Information extraction and Retrieval 
+• 
+Question answering & dialogue agents 
+• 
+Speech Technologies 
+• 
+OCR, Hand Writing Recognition 
+• 
+Indian Language Script Technology 
+• 
+Language identification 
+• 
+Auto suggest/ Auto complete, chat bots, Robotics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PAGE 5 ===
+ACTS, Pune 
+PGCP-AI 
+Page 5 of 5 
+ 
+Suggested Teaching Guidelines for 
+Natural Language Processing & Computer Vision 
+PGCP-AI August 2026 
+ 
+ 
+II.Computer Vision (14 Hours Theory + 18 Hours Lab + 5 Hours Self-Learning) 
+ 
+Sessions 14 & 15: (4T + 4L + 1SL) 
+Theory 
+• 
+Introduction to Computer Vision 
+• 
+Computer Vision and Natural Language Processing 
+• 
+The Three R's of Computer Vision 
+• 
+Basics of Image Processing 
+• 
+Vision Level – Low, Mid & High 
+ 
+Lab Assignments: Load any .jpeg image and process the image using Open CV 
+ 
+Sessions 16 & 17: (4T + 4L + 1SL) 
+• 
+Edge Detection, Interest Points and Corners 
+• 
+Image Classification 
+• 
+Recognition, Bag of Features, and Large-scale Instance Recognition 
+• 
+Transfer Learning 
+ 
+Lab Assignments: Load any image and classify the image and implement the edge 
+detection 
+ 
+Session 18: (2T + 6L + 1SL) 
+• 
+Alex Net, 
+• 
+ResNet, 
+• 
+Image Net 
+• 
+Introduction to Vision Transformers (ViT) 
+• 
+Image Patch Embeddings, Self-Attention in Computer Vision 
+ 
+Lab Assignments: Implement AlexNet, ResNet and Image Net on the data sets. 
+  Implement Image Classification using a Pretrained Vision Transformer (ViT) 
+ 
+Sessions 19 & 20: (4T + 4L + 2SL) 
+Introduction to Object Detection Algorithms 
+• 
+YoLo (High Level Overview) 
+• 
+RCNN 
+• 
+Fast RCNN 
+• 
+Faster RCNN 
+• 
+Mask RCNN 
+ 
+Lab Assignments: 
+Applications of Computer Vision 
+• 
+Gender Prediction 
+• 
+Image Mapping 
+• 
+Face / Object Recognition 
+• 
+Image Recreation 
+• 
+Image Matching 
