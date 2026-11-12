@@ -47,9 +47,12 @@ The official laboratory manual contains **11 progressive laboratory experiments 
 4. **Experiment 4: Entropy and Information Theory in NLP**
    - Calculate corpus entropy, cross-entropy, and perplexity ($PP(W) = 2^{H(W)}$) to measure language model uncertainty.
    - Student implementation: [`code/04. Entropy and Information Theory in NLP.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/04.%20Entropy%20and%20Information%20Theory%20in%20NLP.py)
-   - Teacher reference code: [`code/Day 4/entropy_nlp.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/entropy_nlp.py)
+   - Teacher reference code: [`code/Day 4/entropy_nlp.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/entropy_nlp.py) & [`code/Day 4/entropy_nlp2.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/entropy_nlp2.py)
+   - Guides: [`pdfs/4. entropy nlp.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/4.%20entropy%20nlp.pdf) & [`pdfs/4.Entropy_and_Information_Theory_in_NLP_Explanation2.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/4.Entropy_and_Information_Theory_in_NLP_Explanation2.pdf)
 5. **Experiment 5: Statistical Parsing Using Probabilistic Context-Free Grammar (PCFG)**
    - Construct probabilistic grammar rules and determine the most probable parse tree for syntactically ambiguous sentences.
+   - Student implementation: [`code/05. Statistical Parsing Using Probabilistic Context-Free Grammar.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/05.%20Statistical%20Parsing%20Using%20Probabilistic%20Context-Free%20Grammar.py)
+   - Teacher reference code: [`code/Day 4/pcfg_parser.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/pcfg_parser.py)
 
 ### Part B: Statistical Text Classification (Experiments 6 - 11)
 6. **Experiment 6: Text Categorization Using Machine Learning**
