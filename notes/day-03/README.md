@@ -20,11 +20,11 @@
 | **Exp 8** | Semantic Parsing | Natural language to logical representations via Lambda Calculus | [`code/06. Semantic Parsing using Feature Grammar.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/06.%20Semantic%20Parsing%20using%20Feature%20Grammar.py) |
 | **Exp 9** | Information Extraction (NER) | Extracting entities (Persons, Orgs, Locations) with spaCy | [`code/07. Information Extraction using NER with spaCy.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/07.%20Information%20Extraction%20using%20NER%20with%20spaCy.py) |
 | **Exp 10** | Relation Extraction | Entity pairs (Person-Org, Org-Location) | Slide 19-20 & Slide 36 Q3 |
-| **Exp 11** | Automatic Text Summarization | Extractive summarization using TextRank & ROUGE | Slide 21-25 & Slide 36 Q4 |
-| **Exp 12** | Anaphora & Coreference Resolution | Resolving pronouns to antecedents | Slide 26-28 & Slide 36 Q5 |
-| **Exp 13** | Pragmatic Analysis | Speech acts, speaker intent, context | Slide 29-30 |
-| **Exp 14** | Discourse Analysis & Coherence | Coherence relations, discourse markers | Slide 30-32 |
-| **Exp 15** | Ontology & Semantic Web (RDF / SPARQL) | Triples, OWL knowledge graphs, SPARQL queries | Slide 33-35 & Slide 36 Q6 |
+| **Exp 11** | Automatic Text Summarization | Extractive summarization using TextRank & ROUGE | [`code/11. Text Summarization using TextRank.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/11.%20Text%20Summarization%20using%20TextRank.py) |
+| **Exp 12** | Anaphora & Coreference Resolution | Resolving pronouns to antecedents | [`code/08. Anaphora and Coreference Resolution using spaCy.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/08.%20Anaphora%20and%20Coreference%20Resolution%20using%20spaCy.py) |
+| **Exp 13** | Pragmatic Analysis | Speech acts, speaker intent, context | [`code/09. Pragmatic Analysis and Speech Act Classification.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/09.%20Pragmatic%20Analysis%20and%20Speech%20Act%20Classification.py) |
+| **Exp 14** | Discourse Analysis & Coherence | Coherence relations, discourse markers | [`code/10. Discourse Analysis and Coherence Modeling.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/10.%20Discourse%20Analysis%20and%20Coherence%20Modeling.py) |
+| **Exp 15** | Ontology & Semantic Web (RDF / SPARQL) | Triples, OWL knowledge graphs, SPARQL queries | [`code/12. Semantic Web Ontology and SPARQL Querying.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/12.%20Semantic%20Web%20Ontology%20and%20SPARQL%20Querying.py) |
 
 ---
 
@@ -50,6 +50,11 @@
 - [`code/Day 3/srl_system.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/Day%203/srl_system.py): Rule-based Semantic Role Labeling identifying Agent, Action, Patient, and Instrument.
 - [`code/Day 3/semantic_parsing.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/Day%203/semantic_parsing.py): Semantic parsing converting natural language to First-Order Logic predicates via NLTK `FeatureGrammar`.
 - [`code/Day 3/information_extraction.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/Day%203/information_extraction.py): Information Extraction using Named Entity Recognition (NER) with spaCy.
+- [`code/Day 3/anaphora_resolution_updated.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/Day%203/anaphora_resolution_updated.py) & [`code/Day 3/anaphora_coreference.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/Day%203/anaphora_coreference.py): Anaphora and pronoun-antecedent coreference matching.
+- [`code/Day 3/pragmatic_analysis.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/Day%203/pragmatic_analysis.py): Pragmatic intent and Searle's speech act classification.
+- [`code/Day 3/discourse_analysis.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/Day%203/discourse_analysis.py): Rhetorical discourse connectives and consecutive sentence coherence modeling.
+- [`code/Day 3/text_summarization.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/Day%203/text_summarization.py): Extractive text summarization using NetworkX PageRank (TextRank).
+- [`code/Day 3/ontology_rdf_sparql.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-03/code/Day%203/ontology_rdf_sparql.py): RDF University knowledge graph and multi-join SPARQL queries.
 
 ---
 
