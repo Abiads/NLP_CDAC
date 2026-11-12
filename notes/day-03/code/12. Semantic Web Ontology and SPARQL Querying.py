@@ -112,3 +112,4 @@ def build_and_query_university_ontology():
 
 if __name__ == "__main__":
     build_and_query_university_ontology()
+

@@ -72,3 +72,4 @@ if __name__ == "__main__":
     She specializes in deep learning architectures.
     """
     resolve_anaphora(sample_text)
+

@@ -57,8 +57,12 @@ The official laboratory manual contains **11 progressive laboratory experiments 
 ### Part B: Statistical Text Classification (Experiments 6 - 11)
 6. **Experiment 6: Text Categorization Using Machine Learning**
    - Extract Bag-of-Words and TF-IDF feature matrices from document collections.
+   - Teacher reference code: [`code/Day 4/text_categorization.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/text_categorization.py) & [`code/Day 4/text_categorization2.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/text_categorization2.py)
+   - Guides: [`pdfs/6. Text Categorization.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/6.%20Text%20Categorization.pdf) & [`pdfs/6.Text_Categorization_Using_Machine_Learning_Explanation2.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/6.Text_Categorization_Using_Machine_Learning_Explanation2.pdf)
 7. **Experiment 7: Text Classification Using Naive Bayes**
    - Implement Multinomial Naive Bayes for binary classification (Spam/Ham, Positive/Negative sentiment).
+   - Teacher reference code: [`code/Day 4/naive_bayes_text_classification.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/naive_bayes_text_classification.py)
+   - Guides: [`pdfs/7. Naive Bayes Text Classification.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/7.%20Naive%20Bayes%20Text%20Classification.pdf) & [`pdfs/7.Naive_Bayes_Text_Classification_Explanation2.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/7.Naive_Bayes_Text_Classification_Explanation2.pdf)
 8. **Experiment 8: Text Classification Using Support Vector Machine (SVM)**
    - Implement linear SVM with TF-IDF features and evaluate with confusion matrices, Precision, Recall, and F1-score.
 9. **Experiment 9: Text Clustering Using K-Means**

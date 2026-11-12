@@ -100,3 +100,4 @@ if __name__ == "__main__":
     As a result, his analytical problem-solving capability flourished.
     """
     analyze_discourse(discourse_text)
+
