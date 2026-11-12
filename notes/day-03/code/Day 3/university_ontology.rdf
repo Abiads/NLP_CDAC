@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="http://example.org/university#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/university#Student">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/university#Teacher">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/university#Course">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/university#Alice">
+    <rdf:type rdf:resource="http://example.org/university#Student"/>
+    <rdfs:label rdf:resource="http://example.org/university#Alice"/>
+    <ex:enrolledIn rdf:resource="http://example.org/university#Python"/>
+    <ex:enrolledIn rdf:resource="http://example.org/university#MachineLearning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/university#Bob">
+    <rdf:type rdf:resource="http://example.org/university#Student"/>
+    <rdfs:label rdf:resource="http://example.org/university#Bob"/>
+    <ex:enrolledIn rdf:resource="http://example.org/university#Python"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/university#DrSmith">
+    <rdf:type rdf:resource="http://example.org/university#Teacher"/>
+    <ex:teaches rdf:resource="http://example.org/university#Python"/>
+    <ex:teaches rdf:resource="http://example.org/university#MachineLearning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/university#MachineLearning">
+    <rdf:type rdf:resource="http://example.org/university#Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/university#Python">
+    <rdf:type rdf:resource="http://example.org/university#Course"/>
+  </rdf:Description>
+</rdf:RDF>
