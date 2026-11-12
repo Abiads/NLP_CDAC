@@ -147,3 +147,4 @@ if __name__ == "__main__":
         b_trans, _ = build_ngram_models(corpus)
         best, dist = predict_next_word(user_query, b_trans)
         print(f"\n[CLI Query]: '{user_query}' -> Top Prediction: '{best}'")
+

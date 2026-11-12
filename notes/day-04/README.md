@@ -34,10 +34,16 @@ The official laboratory manual contains **11 progressive laboratory experiments 
    - Calculate sentence likelihood via sequential multiplication using the chain rule.
    - Student implementation: [`code/01. Probability Theory and N-gram Language Models.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/01.%20Probability%20Theory%20and%20N-gram%20Language%20Models.py)
    - Teacher reference code: [`code/Day 4/Probability_Theory_and_Language_Model.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/Probability_Theory_and_Language_Model.py) & [`code/Day 4/Probability_Theory_and_Language_Model1.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/Probability_Theory_and_Language_Model1.py)
-2. **Experiment 2: Discrete-Time Language Models**
+2. **Experiment 2: Discrete-Time Language Models (N-gram Prediction)**
    - Implement an N-gram next-word prediction engine given an antecedent sequence of words.
+   - Student implementation: [`code/02. N-gram Prediction and Next-Word Generation.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/02.%20N-gram%20Prediction%20and%20Next-Word%20Generation.py)
+   - Teacher reference code: [`code/Day 4/ngram_prediction.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/ngram_prediction.py) & [`code/Day 4/ngram_model_updated.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/ngram_model_updated.py)
+   - Guides: [`pdfs/2. ngram prediction.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/2.%20ngram%20prediction.pdf) & [`pdfs/2.Generalized_Ngram_Model_Execution.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/2.Generalized_Ngram_Model_Execution.pdf)
 3. **Experiment 3: Markov Models for Text Processing**
    - Construct state-transition matrices and simulate sequence generation across textual states.
+   - Student implementation: [`code/03. Markov Models for Text Processing.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/03.%20Markov%20Models%20for%20Text%20Processing.py)
+   - Teacher reference code: [`code/Day 4/markov_model.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/markov_model.py) & [`code/Day 4/markov_model2.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/markov_model2.py)
+   - Guides: [`pdfs/3. markov model.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/3.%20markov%20model.pdf) & [`pdfs/3.Markov_Models2_for_Text_Processing_Explanation.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/3.Markov_Models2_for_Text_Processing_Explanation.pdf)
 4. **Experiment 4: Entropy and Information Theory in NLP**
    - Calculate corpus entropy, cross-entropy, and perplexity ($PP(W) = 2^{H(W)}$) to measure language model uncertainty.
 5. **Experiment 5: Statistical Parsing Using Probabilistic Context-Free Grammar (PCFG)**
