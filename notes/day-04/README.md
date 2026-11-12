@@ -52,7 +52,7 @@ The official laboratory manual contains **11 progressive laboratory experiments 
 5. **Experiment 5: Statistical Parsing Using Probabilistic Context-Free Grammar (PCFG)**
    - Construct probabilistic grammar rules and determine the most probable parse tree for syntactically ambiguous sentences.
    - Student implementation: [`code/05. Statistical Parsing Using Probabilistic Context-Free Grammar.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/05.%20Statistical%20Parsing%20Using%20Probabilistic%20Context-Free%20Grammar.py)
-   - Teacher reference code: [`code/Day 4/pcfg_parser.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/pcfg_parser.py)
+   - Teacher reference code: [`code/Day 4/pcfg_parser.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/pcfg_parser.py) & [`code/Day 4/pcfg_parser2.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/pcfg_parser2.py)
 
 ### Part B: Statistical Text Classification (Experiments 6 - 11)
 6. **Experiment 6: Text Categorization Using Machine Learning**
