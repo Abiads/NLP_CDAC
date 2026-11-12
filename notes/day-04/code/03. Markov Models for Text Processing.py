@@ -170,3 +170,4 @@ if __name__ == "__main__":
         m.fit(demo_corpus)
         best_next, _ = m.predict_next_state(query)
         print(f"\n[CLI State Prediction]: Input '{query}' -> Next State '{best_next}'")
+

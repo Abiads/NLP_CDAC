@@ -46,6 +46,8 @@ The official laboratory manual contains **11 progressive laboratory experiments 
    - Guides: [`pdfs/3. markov model.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/3.%20markov%20model.pdf) & [`pdfs/3.Markov_Models2_for_Text_Processing_Explanation.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/3.Markov_Models2_for_Text_Processing_Explanation.pdf)
 4. **Experiment 4: Entropy and Information Theory in NLP**
    - Calculate corpus entropy, cross-entropy, and perplexity ($PP(W) = 2^{H(W)}$) to measure language model uncertainty.
+   - Student implementation: [`code/04. Entropy and Information Theory in NLP.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/04.%20Entropy%20and%20Information%20Theory%20in%20NLP.py)
+   - Teacher reference code: [`code/Day 4/entropy_nlp.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/entropy_nlp.py)
 5. **Experiment 5: Statistical Parsing Using Probabilistic Context-Free Grammar (PCFG)**
    - Construct probabilistic grammar rules and determine the most probable parse tree for syntactically ambiguous sentences.
 
