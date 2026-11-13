@@ -23,9 +23,13 @@
 projects/
 ├── guides/
 │   ├── NLP Environment Setup & Duplicate Question Detector Guide.pdf
-│   └── Project_1_Duplicate_Question_Detection_Learning_Notes.pdf
+│   ├── Project_1_Duplicate_Question_Detection_Learning_Notes.pdf
+│   └── duplicate_question_detector.zip
 ├── project-01-duplicate-question-detector/
 │   ├── app.py
+│   ├── api.py
+│   ├── pgvector_schema.sql
+│   ├── pgvector_store.py
 │   ├── duplicate_detector_interactive.ipynb
 │   └── README.md
 └── README.md

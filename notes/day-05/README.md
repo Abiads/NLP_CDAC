@@ -35,7 +35,11 @@ The official laboratory manual specifies **10 progressive laboratory programs**:
   - Teacher Code: [`code/Day 5/sentiment_analysis.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/code/Day%205/sentiment_analysis.py) & [`code/Day 5/sentiment_analysis2.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/code/Day%205/sentiment_analysis2.py)
   - Dataset: [`sentiment_dataset.csv`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/sentiment_dataset.csv)
   - Official Lab Guide: [`pdfs/1.Sentiment_Analysis_Logistic_Regression_SVM.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/pdfs/1.Sentiment_Analysis_Logistic_Regression_SVM.pdf)
-| **Program 4** | Comparison of Machine Learning Algorithms | Naive Bayes, Decision Trees, Random Forests, Logistic Regression; Accuracy, Precision, Recall, F1 | 20 Newsgroups Dataset | `scikit-learn`, `matplotlib` |
+| **Program 4** | Comparison of Machine Learning Algorithms | Naive Bayes, Decision Trees, Random Forests, Logistic Regression; Accuracy, Precision, Recall, F1 | 20 Newsgroups / [`sentiment_dataset.csv`](sentiment_dataset.csv) | `scikit-learn`, `matplotlib` |
+
+- **Program 4 Reference Implementation:**
+  - Teacher Code: [`code/Day 5/compare_nlp_algorithms.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/code/Day%205/compare_nlp_algorithms.py)
+  - Official Lab Guide: [`pdfs/2.Comparison_of_ML_Algorithms_for_NLP_Tasks.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/pdfs/2.Comparison_of_ML_Algorithms_for_NLP_Tasks.pdf)
 | **Program 5** | Word Embeddings for NLP using Word2Vec | One-hot encoding, Continuous Bag-of-Words (CBOW), Skip-gram, semantic cosine similarity | Text Corpus / Wikipedia sentences | `gensim`, `nltk` |
 | **Program 6** | Neural Network for Text Classification | Artificial Neural Network (ANN), dense layers, ReLU/Softmax, binary cross-entropy, backpropagation | IMDb Movie Reviews | `tensorflow`, `keras` |
 | **Program 7** | Recurrent Neural Network (RNN) for Sequence Processing | RNN hidden state recurrence, sequential token ingestion, vanishing gradient analysis | Shakespeare Text Dataset | `tensorflow`, `keras` |
