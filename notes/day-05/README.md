@@ -29,7 +29,12 @@ The official laboratory manual specifies **10 progressive laboratory programs**:
 | :--- | :--- | :--- | :--- | :--- |
 | **Program 1** | Text Classification using Machine Learning | Text preprocessing, Bag-of-Words, TF-IDF vectorization, feature extraction | SMS Spam Collection | `nltk`, `scikit-learn` |
 | **Program 2** | Naive Bayes Classifier for Spam Email Detection | Multinomial Naive Bayes, Laplace smoothing, probabilistic text classification | SMS Spam Collection | `pandas`, `scikit-learn` |
-| **Program 3** | Sentiment Analysis using Logistic Regression & SVM | Logistic Regression, Support Vector Machine, TF-IDF, binary sentiment polarity | IMDb Movie Reviews | `nltk`, `scikit-learn` |
+| **Program 3** | Sentiment Analysis using Logistic Regression & SVM | Logistic Regression, Support Vector Machine, TF-IDF, binary sentiment polarity | IMDb / [`sentiment_dataset.csv`](sentiment_dataset.csv) | `nltk`, `scikit-learn` |
+
+- **Program 3 Reference Implementation:**
+  - Teacher Code: [`code/Day 5/sentiment_analysis.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/code/Day%205/sentiment_analysis.py) & [`code/Day 5/sentiment_analysis2.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/code/Day%205/sentiment_analysis2.py)
+  - Dataset: [`sentiment_dataset.csv`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/sentiment_dataset.csv)
+  - Official Lab Guide: [`pdfs/1.Sentiment_Analysis_Logistic_Regression_SVM.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/pdfs/1.Sentiment_Analysis_Logistic_Regression_SVM.pdf)
 | **Program 4** | Comparison of Machine Learning Algorithms | Naive Bayes, Decision Trees, Random Forests, Logistic Regression; Accuracy, Precision, Recall, F1 | 20 Newsgroups Dataset | `scikit-learn`, `matplotlib` |
 | **Program 5** | Word Embeddings for NLP using Word2Vec | One-hot encoding, Continuous Bag-of-Words (CBOW), Skip-gram, semantic cosine similarity | Text Corpus / Wikipedia sentences | `gensim`, `nltk` |
 | **Program 6** | Neural Network for Text Classification | Artificial Neural Network (ANN), dense layers, ReLU/Softmax, binary cross-entropy, backpropagation | IMDb Movie Reviews | `tensorflow`, `keras` |
@@ -65,3 +70,4 @@ The official laboratory manual specifies **10 progressive laboratory programs**:
 
 - **Slide Deck:** [`slides/Session6_NLP_with_ML_and_DL_2026.pptx`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/slides/Session6_NLP_with_ML_and_DL_2026.pptx)
 - **Laboratory Manual:** [`pdfs/Session_6_NLP_ML_DL_Lab_Programs.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/pdfs/Session_6_NLP_ML_DL_Lab_Programs.pdf)
+
