@@ -69,7 +69,9 @@ def determine_destination(filename):
         return os.path.join(assign_dir, base_name)
 
     # Detect day folder (check day-specific folder prefix first)
-    if filename.startswith("DAY 4/") or "day 4" in fname_lower or "day-04" in fname_lower or "session5" in fname_lower or "session6" in fname_lower:
+    if filename.startswith("DAY 5/") or "day 5" in fname_lower or "day-05" in fname_lower or "session6" in fname_lower:
+        target_day = "day-05"
+    elif filename.startswith("DAY 4/") or "day 4" in fname_lower or "day-04" in fname_lower or "session5" in fname_lower:
         target_day = "day-04"
     elif filename.startswith("Day 3/") or "day 3" in fname_lower or "day-03" in fname_lower or "session4" in fname_lower:
         target_day = "day-03"
@@ -78,7 +80,7 @@ def determine_destination(filename):
     elif filename.startswith("DAY 1/") or "day 1" in fname_lower or "day-01" in fname_lower or "session1" in fname_lower or "session2" in fname_lower:
         target_day = "day-01"
     else:
-        target_day = "day-02"
+        target_day = "day-05"
 
     # 2. Session slides (.pptx)
     if filename.endswith(".pptx"):
@@ -86,6 +88,8 @@ def determine_destination(filename):
 
     # 3. Session PDF guides (.pdf)
     if filename.endswith(".pdf"):
+        if filename.startswith("DAY 5/"):
+            return os.path.join(REPO_ROOT, "notes", "day-05", "pdfs", base_name)
         if filename.startswith("DAY 4/") or "probability" in fname_lower:
             return os.path.join(REPO_ROOT, "notes", "day-04", "pdfs", base_name)
         if filename.startswith("Day 3/") or "anaphora" in fname_lower or "coreference" in fname_lower:
@@ -96,7 +100,9 @@ def determine_destination(filename):
 
     # 4. Teacher reference python code (.py) from cloud
     if filename.endswith(".py"):
-        if filename.startswith("DAY 4/"):
+        if filename.startswith("DAY 5/"):
+            return os.path.join(REPO_ROOT, "notes", "day-05", "code", "Day 5", base_name)
+        elif filename.startswith("DAY 4/"):
             return os.path.join(REPO_ROOT, "notes", "day-04", "code", "Day 4", base_name)
         elif filename.startswith("Day 3/"):
             return os.path.join(REPO_ROOT, "notes", "day-03", "code", "Day 3", base_name)

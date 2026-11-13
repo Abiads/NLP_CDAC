@@ -61,16 +61,24 @@ The official laboratory manual contains **11 progressive laboratory experiments 
    - Guides: [`pdfs/6. Text Categorization.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/6.%20Text%20Categorization.pdf) & [`pdfs/6.Text_Categorization_Using_Machine_Learning_Explanation2.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/6.Text_Categorization_Using_Machine_Learning_Explanation2.pdf)
 7. **Experiment 7: Text Classification Using Naive Bayes**
    - Implement Multinomial Naive Bayes for binary classification (Spam/Ham, Positive/Negative sentiment).
-   - Teacher reference code: [`code/Day 4/naive_bayes_text_classification.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/naive_bayes_text_classification.py)
+   - Teacher reference code: [`code/Day 4/naive_bayes_text_classification.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/naive_bayes_text_classification.py) & [`code/Day 4/naive_bayes_text_classification2.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/naive_bayes_text_classification2.py)
    - Guides: [`pdfs/7. Naive Bayes Text Classification.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/7.%20Naive%20Bayes%20Text%20Classification.pdf) & [`pdfs/7.Naive_Bayes_Text_Classification_Explanation2.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/7.Naive_Bayes_Text_Classification_Explanation2.pdf)
 8. **Experiment 8: Text Classification Using Support Vector Machine (SVM)**
    - Implement linear SVM with TF-IDF features and evaluate with confusion matrices, Precision, Recall, and F1-score.
+   - Teacher reference code: [`code/Day 4/svm_text_classification.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/svm_text_classification.py) & [`code/Day 4/svm_text_classification2.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/svm_text_classification2.py)
+   - Guides: [`pdfs/8. SVM Text Classification.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/8.%20SVM%20Text%20Classification.pdf) & [`pdfs/8.SVM_Text_Classification_Explanation2.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/8.SVM_Text_Classification_Explanation2.pdf)
 9. **Experiment 9: Text Clustering Using K-Means**
    - Unsupervised grouping of document vector representations into cohesive thematic clusters.
+   - Teacher reference code: [`code/Day 4/kmeans_text_clustering.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/kmeans_text_clustering.py) & [`code/Day 4/kmeans_text_clustering2.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/kmeans_text_clustering2.py)
+   - Guides: [`pdfs/9.Kmeans Text Clustering.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/9.Kmeans%20Text%20Clustering.pdf) & [`pdfs/9.Text_Clustering_Using_KMeans_Explanation2.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/9.Text_Clustering_Using_KMeans_Explanation2.pdf)
 10. **Experiment 10: Centroid-Based Text Classification**
     - Compute normalized prototype centroids for each document category and classify unseen text by cosine proximity.
+    - Teacher reference code: [`code/Day 4/centroid_text_classification.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/centroid_text_classification.py) & [`code/Day 4/centroid_text_classification2.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/centroid_text_classification2.py)
+    - Guides: [`pdfs/10. Centroid Text Classification.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/10.%20Centroid%20Text%20Classification.pdf), [`pdfs/10.Centroid_Based_Text_Classification_Explanation2.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/10.Centroid_Based_Text_Classification_Explanation2.pdf) & [`pdfs/10.a. Centroid Text Classification.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/10.a.%20Centroid%20Text%20Classification.pdf)
 11. **Experiment 11: Comparative Performance Analysis**
     - Head-to-head empirical benchmarking of Naive Bayes, Linear SVM, and Centroid-based classifiers on the same dataset.
+    - Teacher reference code: [`code/Day 4/comparative_text_classification.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/comparative_text_classification.py) & [`code/Day 4/comparative_text_classification2.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/code/Day%204/comparative_text_classification2.py)
+    - Guides: [`pdfs/11.Comparative text Classification2 Explanation.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/11.Comparative%20text%20Classification2%20Explanation.pdf) & [`pdfs/11.Comparative_Analysis_Text_Classification_Algorithms2.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-04/pdfs/11.Comparative_Analysis_Text_Classification_Algorithms2.pdf)
 
 ---
 
