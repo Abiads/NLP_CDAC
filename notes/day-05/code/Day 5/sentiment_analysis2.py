@@ -1,6 +1,7 @@
 # SENTIMENT ANALYSIS USING LOGISTIC REGRESSION AND SVM
 
 import os
+from pathlib import Path
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -16,7 +17,14 @@ from sklearn.metrics import (
 )
 
 # STEP 1: Load dataset (or create a larger sample dataset if missing to allow stratified split)
-csv_filename = "sentiment_dataset.csv"
+script_dir = Path(__file__).resolve().parent
+candidates = [
+    script_dir / "sentiment_dataset.csv",
+    script_dir.parent.parent / "sentiment_dataset.csv",
+    Path("sentiment_dataset.csv")
+]
+csv_filename = str(next((p for p in candidates if p.exists()), script_dir / "sentiment_dataset.csv"))
+
 
 # We recreate the file with more samples if it is too small or missing
 if not os.path.exists(csv_filename) or len(pd.read_csv(csv_filename)) < 15:
