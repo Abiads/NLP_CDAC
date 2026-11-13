@@ -2,7 +2,8 @@
 
 **Course:** Natural Language Processing & Computer Vision (PGCP-AI) -- CDAC  
 **Batch:** August 2026  
-**Primary Guide:** [`projects/guides/NLP Environment Setup & Duplicate Question Detector Guide.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/projects/guides/NLP%20Environment%20Setup%20%26%20Duplicate%20Question%20Detector%20Guide.pdf)
+**Primary Guide 1:** [`projects/guides/NLP Environment Setup & Duplicate Question Detector Guide.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/projects/guides/NLP%20Environment%20Setup%20%26%20Duplicate%20Question%20Detector%20Guide.pdf)  
+**Primary Guide 2:** [`projects/guides/Project_1_Duplicate_Question_Detection_Learning_Notes.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/projects/guides/Project_1_Duplicate_Question_Detection_Learning_Notes.pdf) (18-page comprehensive student manual)
 
 ---
 
@@ -21,8 +22,12 @@
 ```text
 projects/
 ├── guides/
-│   └── NLP Environment Setup & Duplicate Question Detector Guide.pdf
+│   ├── NLP Environment Setup & Duplicate Question Detector Guide.pdf
+│   └── Project_1_Duplicate_Question_Detection_Learning_Notes.pdf
 ├── project-01-duplicate-question-detector/
+│   ├── app.py
+│   ├── duplicate_detector_interactive.ipynb
+│   └── README.md
 └── README.md
 ```
 
