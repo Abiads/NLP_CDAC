@@ -1,0 +1,15 @@
+[
+  {
+    "candidate_id": "Candidate_A",
+    "resume_text": "Ananya Rao\nEmail: ananya.rao@example.com\nPhone: +91 98765 43210\nEducation: B.Tech Computer Science\nSkills: Python, machine learning, natural language processing, SQL, pandas, scikit-learn, FastAPI.\nExperience: Data Science Intern at ABC Technologies."
+  },
+  {
+    "candidate_id": "Candidate_B",
+    "resume_text": "Rahul Kumar\nEmail: rahul.kumar@example.com\nPhone: 9876543210\nEducation: B.E. Information Science\nSkills: Python, SQL, pandas, Docker, Java, data analysis.\nExperience: Software Engineer at Bright Systems."
+  },
+  {
+    "candidate_id": "Candidate_C",
+    "resume_text": "Meera Nair\nEmail: meera.nair@example.com\nPhone: +91-9988776655\nEducation: M.Sc. Data Science\nSkills: Python, machine learning, scikit-learn, natural language processing, FastAPI, Docker.\nExperience: Research Assistant at Data Research Lab."
+  }
+]
+

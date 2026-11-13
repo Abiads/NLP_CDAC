@@ -1,0 +1,2 @@
+We are looking for a Python developer with experience in machine learning, natural language processing, SQL, pandas, and scikit-learn. Experience with FastAPI and Docker is an advantage.
+
