@@ -40,7 +40,11 @@ The official laboratory manual specifies **10 progressive laboratory programs**:
 - **Program 4 Reference Implementation:**
   - Teacher Code: [`code/Day 5/compare_nlp_algorithms.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/code/Day%205/compare_nlp_algorithms.py)
   - Official Lab Guide: [`pdfs/2.Comparison_of_ML_Algorithms_for_NLP_Tasks.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/pdfs/2.Comparison_of_ML_Algorithms_for_NLP_Tasks.pdf)
-| **Program 5** | Word Embeddings for NLP using Word2Vec | One-hot encoding, Continuous Bag-of-Words (CBOW), Skip-gram, semantic cosine similarity | Text Corpus / Wikipedia sentences | `gensim`, `nltk` |
+| **Program 5** | Word Embeddings for NLP using Word2Vec | One-hot encoding, Continuous Bag-of-Words (CBOW), Skip-gram, semantic cosine similarity | Text Corpus / [`sentiment_dataset.csv`](sentiment_dataset.csv) | `gensim`, `pandas`, `numpy` |
+
+- **Program 5 Reference Implementation:**
+  - Teacher Code: [`code/Day 5/word2vec_implementation.py`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/code/Day%205/word2vec_implementation.py)
+  - Official Lab Guide: [`pdfs/3.Word2Vec_NLP_Lab.pdf`](file:///c:/Users/conne/Downloads/NLP_CDAC/notes/day-05/pdfs/3.Word2Vec_NLP_Lab.pdf)
 | **Program 6** | Neural Network for Text Classification | Artificial Neural Network (ANN), dense layers, ReLU/Softmax, binary cross-entropy, backpropagation | IMDb Movie Reviews | `tensorflow`, `keras` |
 | **Program 7** | Recurrent Neural Network (RNN) for Sequence Processing | RNN hidden state recurrence, sequential token ingestion, vanishing gradient analysis | Shakespeare Text Dataset | `tensorflow`, `keras` |
 | **Program 8** | Long Short-Term Memory (LSTM) for Sentiment Analysis | LSTM cell state gating (forget, input, output), sequence padding, bidirectional processing | IMDb Movie Reviews | `tensorflow`, `keras` |

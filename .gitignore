@@ -29,6 +29,8 @@ desktop.ini
 reference-books/*.pdf
 *.csv
 disney_processed_sample.csv
+*.model
+*.model.*
 
 # Notebook outputs (optional - uncomment if you want clean notebooks in git)
 # *.ipynb  # only if using .py percent format
