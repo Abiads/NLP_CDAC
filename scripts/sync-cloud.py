@@ -68,6 +68,12 @@ def determine_destination(filename):
         os.makedirs(assign_dir, exist_ok=True)
         return os.path.join(assign_dir, base_name)
 
+    # 1b. NLP Projects
+    if filename.startswith("NLP PROJECTS/") or "nlp project" in fname_lower:
+        proj_guide_dir = os.path.join(REPO_ROOT, "projects", "guides")
+        os.makedirs(proj_guide_dir, exist_ok=True)
+        return os.path.join(proj_guide_dir, base_name)
+
     # Detect day folder (check day-specific folder prefix first)
     if filename.startswith("DAY 5/") or "day 5" in fname_lower or "day-05" in fname_lower or "session6" in fname_lower:
         target_day = "day-05"
